@@ -1,0 +1,23 @@
+@media screen and (max-width:768px) {
+   /* Principal */
+    header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    header nav {
+        padding-bottom: 10px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .movie-principal .description {
+        width: 50%;
+    }
+}
